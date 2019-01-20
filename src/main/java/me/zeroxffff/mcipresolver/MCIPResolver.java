@@ -50,7 +50,7 @@ public class MCIPResolver {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			JOptionPane.showMessageDialog(null,
-				    "Desculpe, mas não foi possível encontrar o endereço de ip. \nVerifique se você está digitando o endereço do servidor corretamente!",
+				    "Desculpe, mas nÃ£o foi possÃ­vel encontrar o endereÃ§o de ip. \nVerifique se vocÃª estÃ¡ digitando o endereÃ§o do servidor corretamente!",
 				    "Minecraft IP Resolver",
 				    JOptionPane.ERROR_MESSAGE);
 			return null;
@@ -59,9 +59,6 @@ public class MCIPResolver {
         
         
 	}
-	
-	public static void main(String[] args) throws TextParseException, UnknownHostException {
-		System.out.println(getAdress("mc.gamerspvp.net").get(0));
-	}
+
 
 }
